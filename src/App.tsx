@@ -8,8 +8,10 @@ function App() {
   return (
     <div className='bg-[url(./assets/images/bg-mob.png)] bg-cover md:bg-[url(./assets/images/bg-box.png)] xl:bg-[url(./assets/images/bg-desk.png)] bg-no-repeat bg-[#efeff2]'>
       <Header />
-      <Hero />
-      <AboutSection />
+      <main>
+        <Hero />
+        <AboutSection />
+      </main>
     </div>
   );
 }
