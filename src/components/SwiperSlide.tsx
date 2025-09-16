@@ -62,7 +62,7 @@ export default function SwiperSlider() {
             />
             <div>
               <div
-                className={`flex items-center h-[57px] ${classes} mb-[15px] md:w-[388px]  backdrop-blur-sm px-[13px]  py-3 rounded-[45px] bg-[#f4f6f7]`}
+                className={`flex items-center h-[57px] ${classes} mb-[15px] md:w-[388px] xl:w-full backdrop-blur-sm px-[13px]  py-3 rounded-[45px] bg-[#f4f6f7]`}
               >
                 <span className='flex items-center justify-center min-w-[33px] h-[33px] rounded-full backdrop-blur-[15.766668319702148px] bg-[#2d322f] font-main font-semibold text-[15px] leading-[140%] tracking-[0.02em] text-[#fbfbfc]'>
                   {number}
@@ -72,7 +72,7 @@ export default function SwiperSlider() {
                 </h3>
               </div>
 
-              <div className='px-8 py-[30px] rounded-[31px] backdrop-blur-sm bg-[#f4f6f7] md:w-[388px] '>
+              <div className='px-8 py-[30px] rounded-[31px] backdrop-blur-sm bg-[#f4f6f7] md:w-[388px] xl:w-full'>
                 <h4 className='font-extrabold text-lg text-[#2d322f] mb-[11px] 3xl:text-xl'>
                   {feature}
                 </h4>
